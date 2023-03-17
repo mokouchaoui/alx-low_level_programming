@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE=2-main.c; gcc -S $CFILE && mv ${CFILE%.*}.s ${CFILE%.*}-assembly.s
+gcc -S $CFILE
