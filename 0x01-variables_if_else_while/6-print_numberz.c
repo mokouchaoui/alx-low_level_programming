@@ -7,16 +7,16 @@
 
 int main(void)
 {
-	putchar(48);
-    	putchar(49);
-    	putchar(50);
-    	putchar(51);
-    	putchar(52);
-    	putchar(53);
-    	putchar(54);
-    	putchar(55);
-    	putchar(56);
-    	putchar(57);
+	putchar("0");
+    	putchar("1");
+    	putchar("2");
+    	putchar("3");
+    	putchar("4");
+    	putchar("5");
+    	putchar("6");
+    	putchar("7");
+    	putchar("8");
+    	putchar("9");
     	putchar('\n');
     	return 0;
 }
