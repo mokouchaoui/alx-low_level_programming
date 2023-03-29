@@ -1,26 +1,25 @@
 #include "holberton.h"
 /**
- * rot13 - rot13 encoding
- * Return: pointer to arr
- * @s: string
+ * rot13 - change letters to ROT13.
+ * @s: analized string.
+ *
+ * Return: String with all letters in ROT13 base.
  */
 char *rot13(char *s)
 {
-	char half1[] = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ";
+	char a[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char rot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	int i = 0;
+	int j;
 
-	char half2[] = "nNoOpPqQrRsStTuUvVwWxXyYzZaAbBcCdDeEfFgGhHiIjJkKlLmM";
-
-	int i = 0, j;
-
-	while (s[i] != 0)
+	while (*(s + i) != '\0')
 	{
-		char c = s[i];
-
-		for (j = 0; j < 52; j++)
+		for (j = 0; j <= 51; j++)
 		{
-			if (c == half1[j])
+			if (*(s + i) == a[j])
 			{
-				s[i] = half2[j];
+				*(s + i) = rot[j];
+				break;
 			}
 		}
 		i++;
