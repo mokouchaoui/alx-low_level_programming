@@ -1,4 +1,4 @@
-## notreblohschool-low_level_programming
+## alx-low_level_programming
 
 !["notrebloh Logo"](https://techcrunch.com/wp-content/uploads/2015/11/notrebloh-logo-horizontal.jpg?w=730&crop=1)
 
