@@ -43,6 +43,15 @@ and more!
 9. [0x08-recursion](./0x08-recursion)
 10. [0x09-static_libraries](./0x09-static_libraries)
 11. [0x0A-argc_argv](./0x0A-argc_argv)
+12. [0x0B-malloc_free](./0x0B-malloc_free)
+13. [0x0C-more_malloc_free](./0x0C-more_malloc_free)
+14. [0x0D-preprocessor](./0x0D-preprocessor)
+15. [0x0E-structures_typedef](./0x0E-structures_typedef)
+16. [0x0F-function_pointers](./0x0F-function_pointers)
+17. [0x10-variadic_functions](./0x10-variadic_functions)
+18. [0x12-singly_linked_lists](./0x12-singly_linked_lists)
+19. [0x13-more_singly_linked_lists](./0x13-more_singly_linked_lists)
+
 
 
 ## Credits
